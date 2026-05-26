@@ -57,7 +57,7 @@ export default function Home() {
       setLoading(true);
 
       const response = await axios.post(
-        "http://127.0.0.1:8000/upload",
+        "https://backend-a0r6.onrender.com",
         formData,
         {
           headers: {
